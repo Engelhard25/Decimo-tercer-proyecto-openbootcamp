@@ -1,0 +1,10 @@
+let nombre = "Engelhard"
+let apellido = "Pacheco"
+let estudiante = nombre.concat(" ", apellido)
+let estudianteMayus = estudiante.toUpperCase()
+let estudianteMinus = estudiante.toLowerCase()
+let longitud_str = estudiante.length
+let primera_letra_nombre = nombre.slice(0 , 1)
+let ultima_letra_apellido = apellido.slice(apellido.length - 1 , apellido.length)
+let estudiante_sin_espacios = estudiante.replace(/ /g , "")
+let boolean_string = estudiante.includes(nombre)

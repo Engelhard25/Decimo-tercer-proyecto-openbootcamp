@@ -1,0 +1,15 @@
+{
+  "name": "aprendiendo_lint",
+  "version": "1.0.0",
+  "description": "Decimo Tercer Proyecto Openbootcamp",
+  "main": "index.js",
+  "scripts": {
+    "lint-fix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "Engelhard Pacheco",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
